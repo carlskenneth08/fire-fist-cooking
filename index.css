@@ -1,0 +1,92 @@
+.navbar .navbar-brand img {
+    height: 50px;
+    margin-left: 200px;
+    border-radius: 8px;
+}
+
+.nav {
+    background-color: rgb(170, 180, 78);
+}
+
+#navlink li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Hover effect */
+#navlink .nav-item:hover {
+    background-color: #9b991c;
+    border-radius: 5px;
+}
+
+#hero {
+    height: 40vh; /* Full viewport height */
+    background-image: 
+        linear-gradient(to right, rgba(00, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), /* Linear gradient */
+        url('./images/hero.avif'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    display: flex; /* Flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+}
+
+.hero-content {
+    color: white; /* Text color */
+}
+
+.cta-button {
+    display: inline-block; /* Inline-block for button styling */
+    padding: 10px 20px; /* Padding for the button */
+    margin-top: 20px; /* Space above button */
+    background-color: #15963b; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.cta-button:hover {
+    background-color: #0b3f0e; /* Darker shade on hover */
+}
+
+#home {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#home p {
+    padding-top: 20px;
+}
+
+
+#featured-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#card {
+    border: 0;
+}
+
+#card img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#card a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    
+}
+
+#card {
+    margin: 30px;
+}
+
+#contact li {
+   list-style: none;
+}
